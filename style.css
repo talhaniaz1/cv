@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.page1 {
+  height: 100%;
+  width: 100%;
+  padding-right: 3vw;
+}
+.header {
+  display: flex;
+  padding-top: 2vw;
+}
+.talhaImg {
+  width: auto;
+  height: 100%;
+}
+.talhaImg img {
+  width: auto;
+  height: 17vw;
+  object-fit: contain;
+}
+.bluebox {
+  background-color: #32325f;
+  box-shadow: 0vw 0.2vw #0000003c;
+  height: 17vw;
+}
+.bluebox h1 {
+  font-size: 4vw;
+  color: #fff;
+  padding-top: 1vw;
+  padding-left: 2vw;
+}
+.bluebox h5 {
+  font-size: 2vw;
+  color: #fff;
+  padding-top: 1vw;
+  padding-left: 1vw;
+}
+.bluebox p {
+  font-size: 1.8vw;
+  color: #fff;
+  padding: 0.5vw 7vw 0vw 1vw;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1vw;
+}
+.phone i {
+  color: white;
+  padding: 0.6vw;
+  background-color: #32325f;
+  border-radius: 50%;
+  font-size: 1.8vw;
+  margin-right: 1vw;
+}
+.phone span {
+  font-size: 1.8vw;
+}
+.email i {
+  color: white;
+  padding: 0.6vw;
+  background-color: #32325f;
+  border-radius: 50%;
+  font-size: 1.8vw;
+  margin-right: 1vw;
+}
+.email span {
+  font-size: 1.8vw;
+}
+.email span a {
+  text-decoration: none;
+  color: #000;
+}
+.myself {
+  padding-left: 2vw;
+}
+.blueheading {
+  color: #32325f;
+  font-size: 2vw;
+  border-bottom: 0.4vw solid #32325f;
+  line-height: 3vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+.bluepara {
+  color: #000;
+  font-size: 1.6vw;
+  letter-spacing: 0.05vw;
+  line-height: 2vw;
+}
+.skills{
+ min-width: 100%; 
+}
+.skillPoints {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+ .skillSet {
+  display: flex;
+  gap: 1vw;
+  flex: 1.5 1.5 25%;
+  color: #000;
+  font-size: 1.6vw;
+  letter-spacing: 0.05vw;
+  line-height: 3vw;
+  align-items: center;
+  padding-left: 3vw;
+}
+.skillSet i{
+font-weight: bolder;
+font-size: 2vw;
+}
+.setLeft{
+  padding-left: 10vw;
+}
+.experienceSet {
+align-items: baseline;
+
+}
+.educationContainer{
+display: flex;
+flex-wrap: wrap;
+
+}
+.qualification{
+  display: flex;
+  gap: 1vw;
+  flex: 1 1 40%;
+  color: #32325f;
+  font-size: 1.6vw;
+  line-height: 2vw;
+  flex-direction: column;
+}
+.qualification h3{
+height: 4vw;
+font-weight: 400;
+}
+.education{
+  display: flex;
+  gap: 1vw;
+  flex: 1 1 15%;
+  color: #000;
+  font-size: 1.6vw;
+  line-height: 2vw;
+flex-direction: column;
+}
+.institution{
+flex: 1 1 30% !important;
+
+padding:0vw 3vw;
+}
+.education h3{
+  height: 4vw;
+  font-weight: 400;
+  text-align: center;
+  
+  }
+.educationbackground{
+  min-width: 100%;
+}
+.uet{
+  height: 5vw !important;
+  text-align: center;
+}
+.finayearproject{
+  display: flex;
+  gap: 0.7vw;
+  font-size: 1.6vw;
+    letter-spacing: 0.05vw;
+    line-height: 3vw;
+    align-items: center; 
+}
