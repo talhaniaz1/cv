@@ -108,7 +108,7 @@
   font-size: 1.6vw;
   letter-spacing: 0.05vw;
   line-height: 3vw;
-  align-items: center;
+  align-items: baseline;
   padding-left: 3vw;
 }
 .skillSet i{
@@ -164,8 +164,9 @@ padding:0vw 3vw;
   min-width: 100%;
 }
 .uet{
-  height: 5vw !important;
+  height: 6vw !important;
   text-align: center;
+
 }
 .finayearproject{
   display: flex;
